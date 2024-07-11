@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <main>
+    <div id="newsletter-sign-up" class="hidden container-md p-0">
+      <!-- Sign-up form start -->
+      <picture>
+        <source media="(min-width: 768px)" srcset="assets/images/illustration-sign-up-desktop.svg">
+        <img class="card-img-top" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+      </picture>
+      <div id="newsletter-info" class="container-fluid">
+        <h1>
+          Stay updated!
+        </h1>
+        <p>
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul>
+          <li>
+            Product discovery and building what matters
+          </li>
+          <li>
+            Measuring to ensure updates are a success
+          </li>
+          <li>
+            And much more!
+          </li>
+        </ul>
+        <form action="" novalidate>
+          <label for="email">Email address</label>
+          <input type="email" placeholder="email@company.com">
+          <button type="submit">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+    </div>
+    <!-- Sign-up form end -->
+    <!-- Success message start -->
+    <div id="success-message" class="container-md p-0">
+      
+    </div>
+      Thanks for subscribing!
+
+      A confirmation email has been sent to ash@loremcompany.com. 
+      Please open it and click the button inside to confirm your subscription.
+
+      Dismiss message
+
+      <!-- Success message end -->
+      
+    
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      </p>
+      <hr class="border border-light opacity-100">
+      <p>
+        Coded by <a href="#">Maan R. Al-Hababi</a>.
+      </p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

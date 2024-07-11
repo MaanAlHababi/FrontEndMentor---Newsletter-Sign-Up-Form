@@ -1,0 +1,46 @@
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-gray: hsl(234, 29%, 20%);
+  --charcoal-gray: hsl(235, 18%, 26%);
+  --gray: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  background-color: var(--dark-slate-gray);
+}
+
+.container-md {
+  background-color: var(--white);
+}
+
+.attribution {
+  padding: 4px;
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  background-color: var(--charcoal-gray);
+  color: var(--white);
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 12px -2px var(--gray);
+}
+
+.attribution p {
+  margin: 4px;
+}
+
+.attribution hr {
+  margin: 0;
+}
+
+.attribution a {
+  color: var(--gray);
+}/*# sourceMappingURL=styles.css.map */
