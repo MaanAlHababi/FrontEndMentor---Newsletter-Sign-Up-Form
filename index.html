@@ -12,14 +12,14 @@
 </head>
 <body>
   <main>
-    <div id="newsletter-sign-up" class="hidden container-md p-0">
+    <div id="newsletter-sign-up" class="container-md p-0">
       <!-- Sign-up form start -->
       <picture>
         <source media="(min-width: 768px)" srcset="assets/images/illustration-sign-up-desktop.svg">
         <img class="card-img-top" src="assets/images/illustration-sign-up-mobile.svg" alt="">
       </picture>
-      <div id="newsletter-info" class="container-fluid">
-        <h1>
+      <div id="newsletter-info" class="container-fluid p-4">
+        <h1 class="my-3">
           Stay updated!
         </h1>
         <p>
@@ -27,7 +27,9 @@
         </p>
         <ul>
           <li>
-            Product discovery and building what matters
+            <i>
+              <img src="assets/images/icon-success.svg" alt="" >
+            </i> Product discovery and building what matters
           </li>
           <li>
             Measuring to ensure updates are a success
@@ -45,15 +47,14 @@
     </div>
     <!-- Sign-up form end -->
     <!-- Success message start -->
-    <div id="success-message" class="container-md p-0">
-      
-    </div>
+    <div id="success-message" class="hidden container-md p-0">
       Thanks for subscribing!
 
       A confirmation email has been sent to ash@loremcompany.com. 
       Please open it and click the button inside to confirm your subscription.
 
       Dismiss message
+    </div>
 
       <!-- Success message end -->
       
